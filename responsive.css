@@ -1,0 +1,21 @@
+/* navbar */
+@media (max-width: 991px) {
+    .nav-bar ul {
+        justify-content: flex-start !important;
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        -webkit-overflow-scrolling: touch;
+        padding: 0px 15px;
+        scrollbar-width: none;
+        /* Firefox */
+    }
+
+    .nav-bar ul::-webkit-scrollbar {
+        display: none;
+        /* Chrome/Safari */
+    }
+
+    .nav-bar ul li {
+        white-space: nowrap;
+    }
+}

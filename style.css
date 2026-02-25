@@ -7,6 +7,14 @@
     font-family: 'SutonnyMj';
     src: url('assets/fonts/SutonnyMJ\ Regular.ttf');
 }
+/* list, anchor */
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
 /* Header Fonts */
 h1,
 h2,
@@ -18,7 +26,7 @@ h6 {
     font-weight: bold;
 }
 /* margin padding */
-p,h1,h2,h3,h4,h5,h6{
+p,h1,h2,h3,h4,h5,h6,i{
     margin: 0;
     padding: 0;
 }
@@ -51,37 +59,37 @@ p,h1,h2,h3,h4,h5,h6{
 }
 /* title */
 .title-1{
-    font-size: 1.8rem;
+    font-size: clamp(1.4rem, 4vw, 1.8rem);
     font-weight: bold;
     font-family: 'SolaimanLipi';
     color: var(--text-p-color);
 }
 .title-red-1{
-    font-size: 1.8rem;
+    font-size: clamp(1.4rem, 4vw, 1.8rem);
     font-weight: bold;
     font-family: 'SolaimanLipi';
     color: var(--primary-color);
 }
 .title-2{
-    font-size: 1.5rem;
+    font-size: clamp(1.2rem, 3.5vw, 1.5rem);
     font-weight: bold;
     font-family: 'SolaimanLipi';
     color: var(--text-p-color);
 }
 .title-red-2{
-    font-size: 1.5rem;
+    font-size: clamp(1.2rem, 3.5vw, 1.5rem);
     font-weight: bold;
     font-family: 'SolaimanLipi';
     color: var(--primary-color);
 }
 .title-3{
-    font-size: 1.2rem;
+    font-size: clamp(1.1rem, 3vw, 1.2rem);
     font-weight: bold;
     font-family: 'SolaimanLipi';
     color: var(--text-p-color);
 }
 .title-5{
-    font-size: 1.12rem;
+    font-size: clamp(0.9rem, 2.5vw, 1.12rem);
     font-weight: 600;
     font-family: 'SolaimanLipi';
     color: var(--text-p-color);
@@ -99,8 +107,8 @@ p,h1,h2,h3,h4,h5,h6{
 .summery-5,
 .summery-6,
 .summery-7 {
-    line-height: 26px;
-    font-size: 17px;
+    line-height: 1.6;
+    font-size: clamp(0.95rem, 2.2vw, 1.06rem);
     display: -webkit-box !important;
     -webkit-box-orient: vertical;
     overflow: hidden;
@@ -136,9 +144,9 @@ p,h1,h2,h3,h4,h5,h6{
     -webkit-line-clamp: 1;
 }
 
-/* navbar */
+/* Topbar */
 .navbar-brand img{
-    width: 180px;
+    width: clamp(120px, 25vw, 180px);
 }
 .topbar-icons{
     font-size: 1rem;
@@ -161,6 +169,18 @@ p,h1,h2,h3,h4,h5,h6{
 
 .navbar-nav .nav-link {
     transition: color 0.3s ease;
+}
+
+/* Navbar */
+.bi-list {
+    font-weight: 900 !important;
+    -webkit-text-stroke: 0.8px currentColor;
+}
+
+.navbar-toggler {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
 }
 
 

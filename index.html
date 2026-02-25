@@ -1,85 +1,148 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kalerkantho</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalerkontho-Home</title>
     <!-- Bootstrap CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
     <!-- Bootstrap Icons CDN -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!-- Responsive CSS -->
-    <link rel="stylesheet" href="responsive.css">   
-</head>
-<body>
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
     <header>
-        <!-- Topbar -->
-         <div class="se-bar"></div>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="https://techtaranga.com.bd/newsportal/update-news/uploads/Tech-Taranga-News-Logo.png" alt="">
+      <!-- Topbar -->
+      <div class="se-bar"></div>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="https://techtaranga.com.bd/newsportal/update-news/uploads/Tech-Taranga-News-Logo.png"
+              alt=""
+            />
+          </a>
+          <div
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvas"
+            aria-controls="offcanvas"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="bi bi-list"></i>
+        </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  <div class="d-flex align-items-center gap-3">
+                    <i class="bi bi-newspaper"></i>
+                    <p class="title-5">ই-পেপার</p>
+                  </div>
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">
-                                <div class="d-flex align-items-center gap-3">
-                                    <i class="bi bi-newspaper"></i>
-                                    <p class="title-5">ই-পেপার</p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">
-                                <div class="d-flex align-items-center gap-3">
-                                    <i class="bi bi-translate"></i>
-                                    <p class="title-5">বাংলা কনভার্টার</p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">
-                                <div class="d-flex align-items-center gap-3">
-                                    <i class="bi bi-archive"></i>
-                                    <p class="title-5">আর্কাইভ
-</p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">
-                                <div class="d-flex align-items-center gap-3">
-                                    <i class="bi bi-camera-video"></i>
-                                    <p class="title-5">ভিডিও</p>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                    <!-- Right Icons -->
-                    <div class="topbar-icon-container d-flex align-items-center gap-2">
-                        <i class="topbar-icons bi bi-search"></i>
-                        <i class="topbar-icons bi bi-bell"></i>
-                        <i class="topbar-icons bi bi-person-fill"></i>
-                    </div>
-                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  <div class="d-flex align-items-center gap-3">
+                    <i class="bi bi-translate"></i>
+                    <p class="title-5">বাংলা কনভার্টার</p>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  <div class="d-flex align-items-center gap-3">
+                    <i class="bi bi-archive"></i>
+                    <p class="title-5">আর্কাইভ</p>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  <div class="d-flex align-items-center gap-3">
+                    <i class="bi bi-camera-video"></i>
+                    <p class="title-5">ভিডিও</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <!-- Right Icons -->
+            <div class="topbar-icon-container d-flex align-items-center gap-2">
+              <i class="topbar-icons bi bi-search"></i>
+              <i class="topbar-icons bi bi-bell"></i>
+              <i class="topbar-icons bi bi-person-fill"></i>
             </div>
-        </nav>
-        <div class="se-bar"></div>
+          </div>
+        </div>
+      </nav>
+      <div class="se-bar"></div>
+      <!-- Offcanvas -->
+      <div
+        class="offcanvas offcanvas-start"
+        tabindex="-1"
+        id="offcanvas"
+        aria-labelledby="offcanvasLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasLabel">Offcanvas</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          Content for the offcanvas goes here. You can place just about any
+          Bootstrap component or custom elements here.
+        </div>
+      </div>
+      <!-- navbar -->
+      <section class="nav-bar shadow-sm py-1">
+        <section class="container mx-auto">
+          <ul class="d-flex align-items-center gap-4 justify-content-center">
+            <li class="title-5 d-none d-md-block">
+              <a href=""><i class="bi bi-house-door-fill"></i></a>
+            </li>
+            <li class="title-5 d-none d-lg-block"><a href="">প্রচ্ছদ</a></li>
+            <li class="title-5"><a href="">সারাদেশ</a></li>
+            <li class="title-5"><a href="">জাতীয়</a></li>
+            <li class="title-5"><a href="">আন্তর্জাতিক</a></li>
+            <li class="title-5"><a href="">রাজধানী</a></li>
+            <li class="title-5"><a href="">চিকিৎসা</a></li>
+            <li class="title-5"><a href="">সাহিত্য</a></li>
+            <li class="title-5"><a href="">কৃষক</a></li>
+            <li class="title-5"><a href="">পরবাস</a></li>
+            <li class="title-5"><a href="">জন দুর্ভোগ</a></li>
+            <li class="title-5"><a href="">বিনোদন</a></li>
+            <li class="title-5 d-none d-lg-block">
+              <a href=""><i class="bi bi-list"></i></a>
+            </li>
+          </ul>
+        </section>
+      </section>
     </header>
 
     <!-- Bootstrap JS CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
     <!-- Custom JS -->
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
