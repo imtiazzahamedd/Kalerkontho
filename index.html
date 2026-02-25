@@ -99,15 +99,46 @@
         id="offcanvas"
         aria-labelledby="offcanvasLabel"
       >
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasLabel">Offcanvas</h5>
+      <!-- offcanvas header -->
+        <div class="offcanvas-header d-flex align-items-center justify-content-between">
+          <section class="offcanvas-logo">
+            <a class="navbar-brand" href="#">
+            <img
+              src="https://techtaranga.com.bd/newsportal/update-news/uploads/Tech-Taranga-News-Logo.png"
+              alt=""
+            />
+          </a>
+          </section>
+          <section class="offcanvas-buttons d-flex align-items-center gap-1">
+            <button class="d-flex align-items-center gap-2 login imti-border">
+              <i class="bi bi-person-fill"></i>
+             লগইন
+          </button>
           <button
             type="button"
             class="btn-close"
             data-bs-dismiss="offcanvas"
             aria-label="Close"
           ></button>
+          </section>
         </div>
+        <div class="se-bar"></div>
+        <!-- offcanvas search bar -->
+         <section class="offcanvas-search-bar">
+          <div class="input-group container mx-auto row align-items-center">
+            <!-- inp -->
+             <section class="col-7">
+              <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="search">
+             </section>
+             <!-- search button -->
+            <section class="col-5">
+              <button class="btn btn-outline-secondary" type="button" id="search">
+                <i class="bi bi-search"></i>
+              </button>
+            </section>
+          </div>
+         </section>
+         <!-- offcanvas body -->
         <div class="offcanvas-body">
           Content for the offcanvas goes here. You can place just about any
           Bootstrap component or custom elements here.
