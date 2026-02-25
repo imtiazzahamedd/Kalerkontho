@@ -35,17 +35,17 @@
           </a>
           <section class="d-flex align-items-center">
             <p class="title-2 d-block d-lg-none">ই-পেপার</p>
-          <div
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvas"
-            aria-controls="offcanvas"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i class="bi bi-list"></i>
-        </div>
+            <div
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvas"
+              aria-controls="offcanvas"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="bi bi-list"></i>
+            </div>
           </section>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
@@ -99,50 +99,73 @@
         id="offcanvas"
         aria-labelledby="offcanvasLabel"
       >
-      <!-- offcanvas header -->
-        <div class="offcanvas-header d-flex align-items-center justify-content-between">
+        <!-- offcanvas header -->
+        <div
+          class="offcanvas-header d-flex align-items-center justify-content-between"
+        >
           <section class="offcanvas-logo">
             <a class="navbar-brand" href="#">
-            <img
-              src="https://techtaranga.com.bd/newsportal/update-news/uploads/Tech-Taranga-News-Logo.png"
-              alt=""
-            />
-          </a>
+              <img
+                src="https://techtaranga.com.bd/newsportal/update-news/uploads/Tech-Taranga-News-Logo.png"
+                alt=""
+              />
+            </a>
           </section>
           <section class="offcanvas-buttons d-flex align-items-center gap-1">
             <button class="d-flex align-items-center gap-2 login imti-border">
               <i class="bi bi-person-fill"></i>
-             লগইন
-          </button>
-          <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="offcanvas"
-            aria-label="Close"
-          ></button>
+              লগইন
+            </button>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
           </section>
         </div>
         <div class="se-bar"></div>
         <!-- offcanvas search bar -->
-         <section class="offcanvas-search-bar">
-          <div class="input-group container mx-auto row align-items-center">
-            <!-- inp -->
-             <section class="col-7">
-              <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="search">
-             </section>
-             <!-- search button -->
-            <section class="col-5">
-              <button class="btn btn-outline-secondary" type="button" id="search">
-                <i class="bi bi-search"></i>
-              </button>
-            </section>
+        <section class="offcanvas-search-bar container mx-auto mt-2">
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control search-input rounded-0"
+              placeholder="অনুসন্ধান করুন..."
+            />
+            <span class="search-btn input-group-text rounded-0 d-flex align-items-center gap-2">
+              <i class="bi bi-search"></i> 
+              <p style="font-size: 0.9rem;">অনুসন্ধান</p>
+            </span>
           </div>
-         </section>
-         <!-- offcanvas body -->
+        </section>
+        <!-- offcanvas body -->
         <div class="offcanvas-body">
-          Content for the offcanvas goes here. You can place just about any
-          Bootstrap component or custom elements here.
+          <ul class="d-flex flex-column gap-2">
+            <li class=""><a href="#">সারাদেশ</a></li>
+            <li class=""><a href="#">জাতীয়</a></li>
+            <li class=""><a href="#">আন্তর্জাতিক</a></li>
+            <li class=""><a href="#">রাজধানী</a></li>
+            <li class=""><a href="#">চিকিৎসা</a></li>
+            <li class=""><a href="#">সাহিত্য</a></li>
+            <li class=""><a href="#">কৃষক</a></li>
+            <li class=""><a href="#">পরবাস</a></li>
+            <li class=""><a href="#">জন দুর্ভোগ</a></li>
+            <li class=""><a href="#">বিনোদন</a></li>
+          </ul>
         </div>
+        <!-- offcanvas footer -->
+        <section class="offcanvas-footer fixed-bottom container mx-auto">
+          <div class="se-bar"></div>
+          <!-- offcanvas footer icons -->
+           <section class="offcanvas-footer-icon-container d-flex align-items-center justify-content-center gap-1 mt-3">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-linkedin"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-youtube"></i>
+           </section>
+           <p class="text-center py-3">কপিরাইট © ২০২৫ । সর্বস্ব সংরক্ষিত</p>
+        </section>
       </div>
       <!-- navbar -->
       <section class="nav-bar shadow-sm py-1">
@@ -152,16 +175,16 @@
               <a href=""><i class="bi bi-house-door-fill"></i></a>
             </li>
             <li class="title-5 d-none d-lg-block"><a href="">প্রচ্ছদ</a></li>
-            <li class="title-5"><a href="">সারাদেশ</a></li>
-            <li class="title-5"><a href="">জাতীয়</a></li>
-            <li class="title-5"><a href="">আন্তর্জাতিক</a></li>
-            <li class="title-5"><a href="">রাজধানী</a></li>
-            <li class="title-5"><a href="">চিকিৎসা</a></li>
-            <li class="title-5"><a href="">সাহিত্য</a></li>
-            <li class="title-5"><a href="">কৃষক</a></li>
-            <li class="title-5"><a href="">পরবাস</a></li>
-            <li class="title-5"><a href="">জন দুর্ভোগ</a></li>
-            <li class="title-5"><a href="">বিনোদন</a></li>
+            <li class="title-5"><a href="#">সারাদেশ</a></li>
+            <li class="title-5"><a href="#">জাতীয়</a></li>
+            <li class="title-5"><a href="#">আন্তর্জাতিক</a></li>
+            <li class="title-5"><a href="#">রাজধানী</a></li>
+            <li class="title-5"><a href="#">চিকিৎসা</a></li>
+            <li class="title-5"><a href="#">সাহিত্য</a></li>
+            <li class="title-5"><a href="#">কৃষক</a></li>
+            <li class="title-5"><a href="#">পরবাস</a></li>
+            <li class="title-5"><a href="#">জন দুর্ভোগ</a></li>
+            <li class="title-5"><a href="#">বিনোদন</a></li>
             <li class="title-5 d-none d-lg-block">
               <a href=""><i class="bi bi-list"></i></a>
             </li>

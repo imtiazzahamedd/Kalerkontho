@@ -1,19 +1,21 @@
 /* Importing Fonts */
 @font-face {
-    font-family: 'SolaimanLipi';
-    src: url('assets/fonts/solaimanlipi.woff');
+  font-family: "SolaimanLipi";
+  src: url("assets/fonts/solaimanlipi.woff");
 }
-@font-face{
-    font-family: 'SutonnyMj';
-    src: url('assets/fonts/SutonnyMJ\ Regular.ttf');
+@font-face {
+  font-family: "SutonnyMj";
+  src: url("assets/fonts/SutonnyMJ\ Regular.ttf");
 }
 /* list, anchor */
-ul{
-    list-style: none;
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-a{
-    text-decoration: none;
-    color: unset;
+a {
+  text-decoration: none;
+  color: unset;
 }
 /* Header Fonts */
 h1,
@@ -22,85 +24,93 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: SolaimanLipi;
-    font-weight: bold;
+  font-family: SolaimanLipi;
+  font-weight: bold;
 }
 /* margin padding */
-p,h1,h2,h3,h4,h5,h6,i{
-    margin: 0;
-    padding: 0;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i{
+  margin: 0;
+  padding: 0;
 }
 /* Colors */
 :root {
-    --primary-color: #c20000;
-    --comment-bg: #fff9e1;
-    --bar-p: #212529;
-    --bar-s: #dee2e6;
-    --dark-bg: #2b2b2b;
-    --text-p-color: #1f1f1f;
-    --text-s-color: #656865;
-    --orange: #f38644;
+  --primary-color: #c20000;
+  --comment-bg: #fff9e1;
+  --bar-p: #212529;
+  --bar-s: #dee2e6;
+  --dark-bg: #2b2b2b;
+  --text-p-color: #1f1f1f;
+  --text-s-color: #656865;
+  --orange: #f38644;
+  --tt-blue: #00aeef;
 }
 /* bars */
 .ph-bar {
-    background-color: var(--bar-p);
-    width: 100%;
-    height: 10px;
+  background-color: var(--bar-p);
+  width: 100%;
+  height: 10px;
 }
 .se-bar {
-    background-color: var(--bar-s);
-    width: 100%;
-    height: 1px;
-    margin: 0.1rem 0;
+  background-color: var(--bar-s);
+  width: 100%;
+  height: 1px;
+  margin: 0.1rem 0;
 }
 /* border-right */
-.imti-border{
-    border: 1px solid var(--bar-s);
+.imti-border {
+  border: 1px solid var(--bar-s);
 }
-.b-right{
-    border-right: 1px solid var(--bar-s);
+.b-right {
+  border-right: 1px solid var(--bar-s);
 }
 /* title */
-.title-1{
-    font-size: clamp(1.4rem, 4vw, 1.8rem);
-    font-weight: bold;
-    font-family: 'SolaimanLipi';
-    color: var(--text-p-color);
+.title-1 {
+  font-size: clamp(1.4rem, 4vw, 1.8rem);
+  font-weight: bold;
+  font-family: "SolaimanLipi";
+  color: var(--text-p-color);
 }
-.title-red-1{
-    font-size: clamp(1.4rem, 4vw, 1.8rem);
-    font-weight: bold;
-    font-family: 'SolaimanLipi';
-    color: var(--primary-color);
+.title-red-1 {
+  font-size: clamp(1.4rem, 4vw, 1.8rem);
+  font-weight: bold;
+  font-family: "SolaimanLipi";
+  color: var(--primary-color);
 }
-.title-2{
-    font-size: clamp(1.2rem, 3.5vw, 1.5rem);
-    font-weight: bold;
-    font-family: 'SolaimanLipi';
-    color: var(--text-p-color);
+.title-2 {
+  font-size: clamp(1.2rem, 3.5vw, 1.5rem);
+  font-weight: bold;
+  font-family: "SolaimanLipi";
+  color: var(--text-p-color);
 }
-.title-red-2{
-    font-size: clamp(1.2rem, 3.5vw, 1.5rem);
-    font-weight: bold;
-    font-family: 'SolaimanLipi';
-    color: var(--primary-color);
+.title-red-2 {
+  font-size: clamp(1.2rem, 3.5vw, 1.5rem);
+  font-weight: bold;
+  font-family: "SolaimanLipi";
+  color: var(--primary-color);
 }
-.title-3{
-    font-size: clamp(1.1rem, 3vw, 1.2rem);
-    font-weight: bold;
-    font-family: 'SolaimanLipi';
-    color: var(--text-p-color);
+.title-3 {
+  font-size: clamp(1.1rem, 3vw, 1.2rem);
+  font-weight: bold;
+  font-family: "SolaimanLipi";
+  color: var(--text-p-color);
 }
-.title-5{
-    font-size: clamp(0.9rem, 2.5vw, 1.12rem);
-    font-weight: 600;
-    font-family: 'SolaimanLipi';
-    color: var(--text-p-color);
+.title-5 {
+  font-size: clamp(0.9rem, 2.5vw, 1.12rem);
+  font-weight: 600;
+  font-family: "SolaimanLipi";
+  color: var(--text-p-color);
 }
-.title-4{
-    font-size: 1rem;
-    font-family: 'SolaimanLipi';
-    color: var(--text-p-color);
+.title-4 {
+  font-size: 1rem;
+  font-family: "SolaimanLipi";
+  color: var(--text-p-color);
 }
 /* summery */
 .summery-1,
@@ -110,109 +120,132 @@ p,h1,h2,h3,h4,h5,h6,i{
 .summery-5,
 .summery-6,
 .summery-7 {
-    line-height: 1.6;
-    font-size: clamp(0.95rem, 2.2vw, 1.06rem);
-    display: -webkit-box !important;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-align: justify;
-    color: var(--text-s-color);
+  line-height: 1.6;
+  font-size: clamp(0.95rem, 2.2vw, 1.06rem);
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-align: justify;
+  color: var(--text-s-color);
 }
 
 .summery-7 {
-    -webkit-line-clamp: 7;
+  -webkit-line-clamp: 7;
 }
 
 .summery-6 {
-    -webkit-line-clamp: 6;
+  -webkit-line-clamp: 6;
 }
 
 .summery-5 {
-    -webkit-line-clamp: 5;
+  -webkit-line-clamp: 5;
 }
 
 .summery-4 {
-    -webkit-line-clamp: 4;
+  -webkit-line-clamp: 4;
 }
 
 .summery-3 {
-    -webkit-line-clamp: 3;
+  -webkit-line-clamp: 3;
 }
 
 .summery-2 {
-    -webkit-line-clamp: 2;
+  -webkit-line-clamp: 2;
 }
 
 .summery-1 {
-    -webkit-line-clamp: 1;
+  -webkit-line-clamp: 1;
 }
 
 /* Topbar */
-.navbar{
-    padding-top: 1px !important;
-    padding-bottom: 1px !important;
+.navbar {
+  padding-top: 1px !important;
+  padding-bottom: 1px !important;
 }
-.navbar-brand img{
-    width: clamp(110px, 25vw, 160px);
+.navbar-brand img {
+  width: clamp(110px, 25vw, 160px);
 }
-.topbar-icons{
-    font-size: 1rem;
-    color: var(--text-p-color);
-    background-color: #e5e6eb;
-    border-radius: 50%;
-    height: 36px;
-    width: 36px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: all 0.3s ease;
+.topbar-icons {
+  font-size: 1rem;
+  color: var(--text-p-color);
+  background-color: #e5e6eb;
+  border-radius: 50%;
+  height: 36px;
+  width: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 .navbar-nav .nav-item:hover .nav-link i,
 .navbar-nav .nav-item:hover .nav-link .title-5 {
-    color: var(--primary-color);
-    transition: color 0.3s ease;
+  color: var(--primary-color);
+  transition: color 0.3s ease;
 }
 
 .navbar-nav .nav-link {
-    transition: color 0.3s ease;
+  transition: color 0.3s ease;
 }
 
 /* Navbar */
 .bi-list {
-    font-weight: 900 !important;
-    -webkit-text-stroke: 0.8px currentColor;
+  font-weight: 900 !important;
+  -webkit-text-stroke: 0.8px currentColor;
 }
 
 .navbar-toggler {
-    border: none !important;
-    outline: none !important;
-    box-shadow: none !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 /* offcanvas */
-.login{
-    background-color: unset;
-    padding: 0.22rem 0.5rem;
+.login {
+  background-color: unset;
+  padding: 0.22rem 0.5rem;
+  border-radius: 5px;
+}
+.offcanvas-header {
+  padding-top: 12px !important;
+  padding-bottom: 5px !important;
+}
+.search-btn {
+  background-color: var(--tt-blue);
+  color: white;
+}
+.search-input {
+  font-size: 1rem;
+  font-family: "SolaimanLipi";
+  border: 1px solid var(--tt-blue) !important;
+}
+.search-input:focus {
+  box-shadow: none !important;
+  outline: none !important;
+  border-color: var(--tt-blue) !important;
+}
+/* offcanvas footer */
+.offcanvas-footer-icon-container i{
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bi-facebook,
+.bi-linkedin
+{
+    border: 1px solid var(--tt-blue);
+    color: var(--tt-blue);
+    padding: 15px;
     border-radius: 5px;
 }
-.offcanvas-header{
-    padding-top: 12px !important;
-    padding-bottom: 5px !important;
+.bi-instagram,
+.bi-youtube{
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: 15px;
+    border-radius: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
