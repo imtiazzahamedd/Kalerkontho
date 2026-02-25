@@ -145,8 +145,12 @@ p,h1,h2,h3,h4,h5,h6,i{
 }
 
 /* Topbar */
+.navbar {
+    padding-top: 1px !important;
+    padding-bottom: 1px !important;
+}
 .navbar-brand img{
-    width: clamp(120px, 25vw, 180px);
+    width: clamp(110px, 25vw, 160px);
 }
 .topbar-icons{
     font-size: 1rem;
@@ -182,7 +186,6 @@ p,h1,h2,h3,h4,h5,h6,i{
     outline: none !important;
     box-shadow: none !important;
 }
-
 
 
 
