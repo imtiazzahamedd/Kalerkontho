@@ -264,9 +264,9 @@ i{
     height: 20px;
 }
 .news-ticker-content{
-    display: flex;
     width: max-content;
     animation: ticker-scroll 20s linear infinite;
+    transition: all 0.3s ease;
 }
 @keyframes ticker-scroll {
     0% {
@@ -281,6 +281,10 @@ i{
     align-items: center;
     gap: 12px;
     white-space: nowrap;
+}
+.news-ticker-content:hover {
+    animation-play-state: paused;
+    transition: all 0.3s ease;
 }
 
 
