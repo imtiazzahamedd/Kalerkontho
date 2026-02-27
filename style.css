@@ -56,6 +56,7 @@ i {
   --text-s-color: #656865;
   --orange: #f38644;
   --tt-blue: #00aeef;
+  --poll-option: #ecf6f8;
 }
 
 /* bars */
@@ -262,16 +263,16 @@ i {
   justify-content: center;
 }
 
-.bi-facebook,
-.bi-linkedin {
+.off-fb,
+.off-lin {
   border: 1px solid var(--tt-blue);
   color: var(--tt-blue);
   padding: 15px;
   border-radius: 5px;
 }
 
-.bi-instagram,
-.bi-youtube {
+.off-ins,
+.off-you {
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
   padding: 15px;
@@ -332,6 +333,7 @@ i {
   font-size: 2rem;
   transform: translate(-50%, -50%);
 }
+
 /* comment online latest & popular news */
 .comment-img {
   width: 85px;
@@ -340,31 +342,43 @@ i {
   object-fit: cover;
   border: 2px solid var(--primary-color);
 }
+
 .comment-card {
   background-color: var(--comment-bg);
   padding: 1rem;
   border-bottom: 3px solid var(--primary-color);
 }
 
+.poll-option {
+  background-color: var(--poll-option);
+  padding: 4px;
+  border-radius: 5px;
+}
 
+.bi-facebook,
+.bi-linkedin,
+.bi-whatsapp,
+.bi-messenger,
+.bi-twitter-x {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.bi-facebook,
+.bi-linkedin {
+  color: var(--tt-blue);
+  border: 1px solid var(--tt-blue);
+}
+.bi-whatsapp{
+  color: green;
+  border: 1px solid green;
+}
+.bi-messenger,
+.bi-twitter-x{
+  color: gray;
+  border: 1px solid gray;
+}
