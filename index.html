@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 
 <head>
@@ -726,14 +726,157 @@
         <!-- latest & popular -->
         <div class="col-12 col-md-4">
           <div class="imti-border rounded p-2">
-            <ul class="nav nav-underline">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">সর্বশেষ</a>
+            <!-- Tab Headers -->
+            <ul class="nav nav-underline mb-2" id="latestPopularTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="latest-tab" data-bs-toggle="tab" data-bs-target="#latest-pane" type="button" role="tab" aria-controls="latest-pane" aria-selected="true">সর্বশেষ</button>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">জনপ্রিয়</a>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="popular-tab" data-bs-toggle="tab" data-bs-target="#popular-pane" type="button" role="tab" aria-controls="popular-pane" aria-selected="false">জনপ্রিয়</button>
               </li>
             </ul>
+            <!-- Tab Content -->
+            <div class="tab-content" id="latestPopularTabContent">
+              <!-- সর্বশেষ Pane -->
+              <div class="tab-pane fade show active" id="latest-pane" role="tabpanel" aria-labelledby="latest-tab">
+                <div class="latest-news-list">
+                  <div class="latest-news-item d-flex align-items-center gap-3 py-2">
+                    <span class="news-number">১</span>
+                    <a href="#" class="title-4 fw-semibold text-decoration-none">পুরোনো রাউটারকে বানিয়ে ফেলুন ওয়াই-ফাই এক্সটেন্ডার</a>
+                  </div>
+                  <div class="se-bar"></div>
+                  <div class="latest-news-item d-flex align-items-center gap-3 py-2">
+                    <span class="news-number">২</span>
+                    <a href="#" class="title-4 fw-semibold text-decoration-none">সোশ্যাল মিডিয়া মেয়েদের বেশি বিরক্ত, কেন বলে গবেষণা?</a>
+                  </div>
+                  <div class="se-bar"></div>
+                  <div class="latest-news-item d-flex align-items-center gap-3 py-2">
+                    <span class="news-number">৩</span>
+                    <a href="#" class="title-4 fw-semibold text-decoration-none">ঈদে আসছে নতুন টাকা, থাকছে না কোনো বিনিময় মূল্য</a>
+                  </div>
+                  <div class="se-bar"></div>
+                  <div class="latest-news-item d-flex align-items-center gap-3 py-2">
+                    <span class="news-number">৪</span>
+                    <a href="#" class="title-4 fw-semibold text-decoration-none">পিছিয়ে পড়েই দেশের সম্ভাব্য এসইসি খাত</a>
+                  </div>
+                  <div class="se-bar"></div>
+                  <div class="latest-news-item d-flex align-items-center gap-3 py-2">
+                    <span class="news-number">৫</span>
+                    <a href="#" class="title-4 fw-semibold text-decoration-none">বাজেটে কৃষি খাতে ১০ শতাংশ उन्नয়ন বার্ষিক দাবি</a>
+                  </div>
+                  <div class="se-bar"></div>
+                  <div class="latest-news-item d-flex align-items-center gap-3 py-2">
+                    <span class="news-number">৫</span>
+                    <a href="#" class="title-4 fw-semibold text-decoration-none">ঈদে আগেই মিলবে ২০, ৫০ ও ১০০ টাকার নতুন নোট</a>
+                  </div>
+                  <div class="se-bar"></div>
+                  <div class="latest-news-item d-flex align-items-center gap-3 py-2">
+                    <span class="news-number">৭</span>
+                    <a href="#" class="title-4 fw-semibold text-decoration-none">চামড়া সংরক্ষণে বিনামূল্যে ৯০ হাজার টন লবণ দেবে সরকার</a>
+                  </div>
+                  <div class="se-bar"></div>
+                  <div class="latest-news-item d-flex align-items-center gap-3 py-2">
+                    <span class="news-number">৮</span>
+                    <a href="#" class="title-4 fw-semibold text-decoration-none">চামড়া সংরক্ষণে বিনামূল্যে ৯০ হাজার টন লবণ দেবে সরকার</a>
+                  </div>
+                  <div class="se-bar"></div>
+                  <div class="latest-news-item d-flex align-items-center gap-3 py-2">
+                    <span class="news-number">৯</span>
+                    <a href="#" class="title-4 fw-semibold text-decoration-none">চামড়া সংরক্ষণে বিনামূল্যে ৯০ হাজার টন লবণ দেবে সরকার</a>
+                  </div>
+                  <div class="se-bar"></div>
+                  <div class="latest-news-item d-flex align-items-center gap-3 py-2">
+                    <span class="news-number">১০</span>
+                    <a href="#" class="title-4 fw-semibold text-decoration-none">চামড়া সংরক্ষণে বিনামূল্যে ৯০ হাজার টন লবণ দেবে সরকার</a>
+                  </div>
+                  <div class="se-bar"></div>
+                  <div class="latest-news-item d-flex align-items-center gap-3 py-2">
+                    <span class="news-number">১১</span>
+                    <a href="#" class="title-4 fw-semibold text-decoration-none">চামড়া সংরক্ষণে বিনামূল্যে ৯০ হাজার টন লবণ দেবে সরকার</a>
+                  </div>
+                  <div class="se-bar"></div>
+                  <div class="latest-news-item d-flex align-items-center gap-3 py-2">
+                    <span class="news-number">১২</span>
+                    <a href="#" class="title-4 fw-semibold text-decoration-none">চামড়া সংরক্ষণে বিনামূল্যে ৯০ হাজার টন লবণ দেবে সরকার</a>
+                  </div>
+                </div>
+                <div class="mt-2">
+                  <a href="#" class="btn-view-all d-block text-center py-2 rounded text-decoration-none">সর্বশেষ সব খবর</a>
+                </div>
+              </div>
+              <!-- জনপ্রিয় Pane -->
+              <div class="tab-pane fade" id="popular-pane" role="tabpanel" aria-labelledby="popular-tab">
+                <div class="latest-news-list">
+                  <div class="latest-news-item d-flex align-items-center gap-3 py-2">
+                    <span class="news-number">১</span>
+                    <a href="#" class="title-4 fw-semibold text-decoration-none">প্রিমিয়ার লিগে সেরা মুকুট পরলেন সালাহ</a>
+                  </div>
+                  <div class="se-bar"></div>
+                  <div class="latest-news-item d-flex align-items-center gap-3 py-2">
+                    <span class="news-number">২</span>
+                    <a href="#" class="title-4 fw-semibold text-decoration-none">উত্তরপ্রদেশে মসজিদ-মাদরাসা টার্গেট করে উচ্ছেদ অভিযান</a>
+                  </div>
+                  <div class="se-bar"></div>
+                  <div class="latest-news-item d-flex align-items-center gap-3 py-2">
+                    <span class="news-number">৩</span>
+                    <a href="#" class="title-4 fw-semibold text-decoration-none">জীবনের চারিপাশ — একটি দার্শনিক পর্যালোচনা</a>
+                  </div>
+                  <div class="se-bar"></div>
+                  <div class="latest-news-item d-flex align-items-center gap-3 py-2">
+                    <span class="news-number">৪</span>
+                    <a href="#" class="title-4 fw-semibold text-decoration-none">এলডিপির চেয়ারম্যানের পদ থেকে ড. অলিকে অব্যাহতি</a>
+                  </div>
+                  <div class="se-bar"></div>
+                  <div class="latest-news-item d-flex align-items-center gap-3 py-2">
+                    <span class="news-number">৫</span>
+                    <a href="#" class="title-4 fw-semibold text-decoration-none">অনিয়মিত জরুরি প্রয়োজন ও জরুরি অবস্থায় নিরাপত্তা</a>
+                  </div>
+                  <div class="se-bar"></div>
+                  <div class="latest-news-item d-flex align-items-center gap-3 py-2">
+                    <span class="news-number">৬</span>
+                    <a href="#" class="title-4 fw-semibold text-decoration-none">কাজ শেষ না করেই আমরা কোথাও যাচ্ছি না</a>
+                  </div>
+                  <div class="se-bar"></div>
+                  <div class="latest-news-item d-flex align-items-center gap-3 py-2">
+                    <span class="news-number">৭</span>
+                    <a href="#" class="title-4 fw-semibold text-decoration-none">বিটিআরসির কাছে ‘ওজন’ বিক্রি করে প্রায় কোটি টাকা</a>
+                  </div>
+                  <div class="se-bar"></div>
+                  <div class="latest-news-item d-flex align-items-center gap-3 py-2">
+                    <span class="news-number">৮</span>
+                    <a href="#" class="title-4 fw-semibold text-decoration-none">বিটিআরসির কাছে ‘ওজন’ বিক্রি করে প্রায় কোটি টাকা</a>
+                  </div>
+                  <div class="se-bar"></div>
+                  <div class="latest-news-item d-flex align-items-center gap-3 py-2">
+                    <span class="news-number">৯</span>
+                    <a href="#" class="title-4 fw-semibold text-decoration-none">বিটিআরসির কাছে ‘ওজন’ বিক্রি করে প্রায় কোটি টাকা</a>
+                  </div>
+                  <div class="se-bar"></div>
+                  <div class="latest-news-item d-flex align-items-center gap-3 py-2">
+                    <span class="news-number">১০</span>
+                    <a href="#" class="title-4 fw-semibold text-decoration-none">বিটিআরসির কাছে ‘ওজন’ বিক্রি করে প্রায় কোটি টাকা</a>
+                  </div>
+                  <div class="se-bar"></div>
+                  <div class="latest-news-item d-flex align-items-center gap-3 py-2">
+                    <span class="news-number">১১</span>
+                    <a href="#" class="title-4 fw-semibold text-decoration-none">বিটিআরসির কাছে ‘ওজন’ বিক্রি করে প্রায় কোটি টাকা</a>
+                  </div>
+                  <div class="se-bar"></div>
+                  <div class="latest-news-item d-flex align-items-center gap-3 py-2">
+                    <span class="news-number">১২</span>
+                    <a href="#" class="title-4 fw-semibold text-decoration-none">বিটিআরসির কাছে ‘ওজন’ বিক্রি করে প্রায় কোটি টাকা</a>
+                  </div>
+                  <div class="se-bar"></div>
+                  <div class="latest-news-item d-flex align-items-center gap-3 py-2">
+                    <span class="news-number">১৩</span>
+                    <a href="#" class="title-4 fw-semibold text-decoration-none">বিটিআরসির কাছে ‘ওজন’ বিক্রি করে প্রায় কোটি টাকা</a>
+                  </div>
+                </div>
+                <div class="mt-2">
+                  <a href="#" class="btn-view-all d-block text-center py-2 rounded text-decoration-none">সর্বশেষ সব খবর</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

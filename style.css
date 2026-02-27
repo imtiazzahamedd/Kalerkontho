@@ -21,6 +21,11 @@ a {
   color: unset;
 }
 
+/* border */
+.imti-border-lg {
+  border: 1px solid var(--bar-s);
+}
+
 /* Header Fonts */
 h1,
 h2,
@@ -373,12 +378,95 @@ i {
   color: var(--tt-blue);
   border: 1px solid var(--tt-blue);
 }
-.bi-whatsapp{
+
+.bi-whatsapp {
   color: green;
   border: 1px solid green;
 }
+
 .bi-messenger,
-.bi-twitter-x{
+.bi-twitter-x {
   color: gray;
   border: 1px solid gray;
+}
+
+/* Latest & Popular Tab Widget */
+.latest-news-list {
+  max-height: 464px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary-color) var(--bar-s);
+}
+
+.latest-news-list::-webkit-scrollbar {
+  width: 1px;
+}
+
+.latest-news-list::-webkit-scrollbar-track {
+  background: var(--bar-s);
+  border-radius: 10px;
+}
+
+.latest-news-list::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 10px;
+}
+
+
+.news-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1.5px solid var(--bar-s);
+  font-family: "SolaimanLipi";
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: var(--text-s-color);
+  flex-shrink: 0;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.latest-news-item:hover .news-number {
+  background-color: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+}
+
+.latest-news-item a {
+  color: var(--text-p-color);
+  transition: color 0.2s ease;
+  line-height: 1.4;
+}
+
+.latest-news-item:hover a {
+  color: var(--primary-color);
+}
+
+.btn-view-all {
+  background-color: var(--tt-blue);
+  color: white !important;
+  font-family: "SolaimanLipi";
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.btn-view-all:hover {
+  background-color: #0095cc;
+  color: white !important;
+}
+
+#latestPopularTab .nav-link {
+  font-family: "SolaimanLipi";
+  font-size: 1rem;
+  color: var(--text-s-color);
+  padding: 4px 12px;
+}
+
+#latestPopularTab .nav-link.active {
+  color: var(--primary-color);
+  border-bottom-color: var(--primary-color);
 }
