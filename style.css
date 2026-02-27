@@ -65,10 +65,11 @@ i {
 }
 
 /* bars */
-.ph-bar {
+.p-bar {
   background-color: var(--bar-p);
   width: 100%;
-  height: 10px;
+  height: 5px;
+  margin: 0.7rem 0;
 }
 
 .se-bar {
