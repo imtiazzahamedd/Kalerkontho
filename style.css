@@ -130,6 +130,12 @@ i {
 }
 
 /* summery */
+.summery {
+  font-size: clamp(0.8rem, 2.2vw, 0.9rem);
+  color: #161515;
+  font-family: "SolaimanLipi";
+}
+
 .summery-1,
 .summery-2,
 .summery-3,
