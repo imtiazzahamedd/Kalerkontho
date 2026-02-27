@@ -3,20 +3,24 @@
   font-family: "SolaimanLipi";
   src: url("assets/fonts/solaimanlipi.woff");
 }
+
 @font-face {
   font-family: "SutonnyMj";
   src: url("assets/fonts/SutonnyMJ\ Regular.ttf");
 }
+
 /* list, anchor */
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
+
 a {
   text-decoration: none;
   color: unset;
 }
+
 /* Header Fonts */
 h1,
 h2,
@@ -27,6 +31,7 @@ h6 {
   font-family: SolaimanLipi;
   font-weight: bold;
 }
+
 /* margin padding */
 p,
 h1,
@@ -35,10 +40,11 @@ h3,
 h4,
 h5,
 h6,
-i{
+i {
   margin: 0;
   padding: 0;
 }
+
 /* Colors */
 :root {
   --primary-color: #c20000;
@@ -51,18 +57,21 @@ i{
   --orange: #f38644;
   --tt-blue: #00aeef;
 }
+
 /* bars */
 .ph-bar {
   background-color: var(--bar-p);
   width: 100%;
   height: 10px;
 }
+
 .se-bar {
   background-color: var(--bar-s);
   width: 100%;
   height: 1px;
   margin: 0.2rem 0;
 }
+
 /* title */
 .title-1 {
   font-size: clamp(1.4rem, 4vw, 1.7rem);
@@ -70,41 +79,49 @@ i{
   font-family: "SolaimanLipi";
   color: var(--text-p-color);
 }
+
 .title-red-1 {
   font-size: clamp(1.4rem, 4vw, 1.7rem);
   font-weight: bold;
   font-family: "SolaimanLipi";
   color: var(--primary-color);
 }
+
 .title-2 {
   font-size: clamp(1rem, 3.5vw, 1.1rem);
   font-weight: bold;
   font-family: "SolaimanLipi";
   color: var(--text-p-color);
+  line-height: 1.3;
 }
+
 .title-red-2 {
   font-size: clamp(1rem, 3.5vw, 1.1rem);
   font-weight: bold;
   font-family: "SolaimanLipi";
   color: var(--primary-color);
 }
+
 .title-3 {
   font-size: clamp(1.1rem, 3vw, 1.2rem);
   font-weight: bold;
   font-family: "SolaimanLipi";
   color: var(--text-p-color);
 }
+
 .title-5 {
   font-size: clamp(0.9rem, 2.5vw, 1.12rem);
   font-weight: 600;
   font-family: "SolaimanLipi";
   color: var(--text-p-color);
 }
+
 .title-4 {
   font-size: 1rem;
   font-family: "SolaimanLipi";
   color: var(--text-p-color);
 }
+
 /* summery */
 .summery-1,
 .summery-2,
@@ -125,30 +142,37 @@ i{
 
 .summery-7 {
   -webkit-line-clamp: 7;
+  line-clamp: 7;
 }
 
 .summery-6 {
   -webkit-line-clamp: 6;
+  line-clamp: 6;
 }
 
 .summery-5 {
   -webkit-line-clamp: 5;
+  line-clamp: 5;
 }
 
 .summery-4 {
   -webkit-line-clamp: 4;
+  line-clamp: 4;
 }
 
 .summery-3 {
   -webkit-line-clamp: 3;
+  line-clamp: 3;
 }
 
 .summery-2 {
   -webkit-line-clamp: 2;
+  line-clamp: 2;
 }
 
 .summery-1 {
   -webkit-line-clamp: 1;
+  line-clamp: 1;
 }
 
 /* Topbar */
@@ -156,9 +180,11 @@ i{
   padding-top: 1px !important;
   padding-bottom: 1px !important;
 }
+
 .navbar-brand img {
   width: clamp(110px, 25vw, 160px);
 }
+
 .topbar-icons {
   font-size: 1rem;
   color: var(--text-p-color);
@@ -172,6 +198,7 @@ i{
   cursor: pointer;
   transition: all 0.3s ease;
 }
+
 .navbar-nav .nav-item:hover .nav-link i,
 .navbar-nav .nav-item:hover .nav-link .title-5 {
   color: var(--primary-color);
@@ -193,116 +220,115 @@ i{
   outline: none !important;
   box-shadow: none !important;
 }
+
 /* offcanvas */
 .login {
   background-color: unset;
   padding: 0.22rem 0.5rem;
   border-radius: 5px;
 }
+
 .offcanvas-header {
   padding-top: 12px !important;
   padding-bottom: 5px !important;
 }
+
 .search-btn {
   background-color: var(--tt-blue);
   color: white;
 }
+
 .search-input {
   font-size: 1rem;
   font-family: "SolaimanLipi";
   border: 1px solid var(--tt-blue) !important;
 }
+
 .search-input:focus {
   box-shadow: none !important;
   outline: none !important;
   border-color: var(--tt-blue) !important;
 }
+
 /* offcanvas footer */
-.offcanvas-footer-icon-container i{
-    font-size: 1rem;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    height: 24px;
-    width: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.offcanvas-footer-icon-container i {
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .bi-facebook,
-.bi-linkedin
-{
-    border: 1px solid var(--tt-blue);
-    color: var(--tt-blue);
-    padding: 15px;
-    border-radius: 5px;
+.bi-linkedin {
+  border: 1px solid var(--tt-blue);
+  color: var(--tt-blue);
+  padding: 15px;
+  border-radius: 5px;
 }
+
 .bi-instagram,
-.bi-youtube{
-    border: 1px solid var(--primary-color);
-    color: var(--primary-color);
-    padding: 15px;
-    border-radius: 5px;
+.bi-youtube {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  padding: 15px;
+  border-radius: 5px;
 }
+
 /* news ticker */
-.news-ticker-container{
-    font-family: "SolaimanLipi";
-    background-color: var(--primary-color);
-    color: white;
-    overflow: hidden;
+.news-ticker-container {
+  font-family: "SolaimanLipi";
+  background-color: var(--primary-color);
+  color: white;
+  overflow: hidden;
 }
-.news-ticker-header{
-    padding: 6px 12px;
+
+.news-ticker-header {
+  padding: 6px 12px;
 }
-.news-ticker-content-item-img{
-    width: 20px;
-    height: 20px;
+
+.news-ticker-content-item-img {
+  width: 20px;
+  height: 20px;
 }
-.news-ticker-content{
-    width: max-content;
-    animation: ticker-scroll 20s linear infinite;
-    transition: all 0.3s ease;
+
+.news-ticker-content {
+  width: max-content;
+  animation: ticker-scroll 20s linear infinite;
+  transition: all 0.3s ease;
 }
+
 @keyframes ticker-scroll {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-50%);
-    }
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
 }
-.news-ticker-content-item{
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    white-space: nowrap;
+
+.news-ticker-content-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  white-space: nowrap;
 }
+
 .news-ticker-content:hover {
-    animation-play-state: paused;
-    transition: all 0.3s ease;
+  animation-play-state: paused;
+  transition: all 0.3s ease;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* video */
+.play-icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: white;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
+}
