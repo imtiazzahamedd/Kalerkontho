@@ -78,6 +78,12 @@ i {
   height: 1px;
   margin: 0.2rem 0;
 }
+.se-bar-footer {
+  background-color: var(--bar-s);
+  width: 100%;
+  height: 1px;
+  margin: 0.8rem 0;
+}
 
 /* title */
 .title-1 {
@@ -132,6 +138,11 @@ i {
 /* summery */
 .summery {
   font-size: clamp(0.8rem, 2.2vw, 0.9rem);
+  color: #161515;
+  font-family: "SolaimanLipi";
+}
+.summery-footer {
+  font-size: clamp(0.95rem, 2.2vw, 1.05rem);
   color: #161515;
   font-family: "SolaimanLipi";
 }
@@ -371,7 +382,9 @@ i {
 .bi-linkedin,
 .bi-whatsapp,
 .bi-messenger,
-.bi-twitter-x {
+.bi-twitter-x,
+.bi-instagram,
+.bi-youtube {
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -389,6 +402,14 @@ i {
 .bi-whatsapp {
   color: green;
   border: 1px solid green;
+}
+.bi-instagram{
+  color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+.bi-youtube{
+  color: var(--primary-color);
+    border: 1px solid var(--primary-color);
 }
 
 .bi-messenger,
@@ -504,4 +525,11 @@ i {
 
 .search:hover {
   background-color: #e0732e;
+}
+/* footer */
+footer{
+  font-family: "SolaimanLipi";
+}
+.footer-logo{
+  width: clamp(120px, 25vw, 150px)
 }
