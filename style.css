@@ -332,3 +332,39 @@ i {
   font-size: 2rem;
   transform: translate(-50%, -50%);
 }
+/* comment online latest & popular news */
+.comment-img {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--primary-color);
+}
+.comment-card {
+  background-color: var(--comment-bg);
+  padding: 1rem;
+  border-bottom: 3px solid var(--primary-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
