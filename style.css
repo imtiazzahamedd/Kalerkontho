@@ -37,6 +37,22 @@ h6 {
   font-weight: bold;
 }
 
+/* img zoom effect container */
+.img-zoom {
+  overflow: hidden;
+  border-radius: 8px;
+  /* Optional: matches your rounded class */
+}
+
+img {
+  transition: 0.3s all ease-in-out;
+  display: block;
+}
+
+.img-zoom:hover img {
+  transform: scale(1.1);
+}
+
 /* margin padding */
 p,
 h1,
@@ -122,6 +138,7 @@ i {
   font-family: "SolaimanLipi";
   color: var(--primary-color);
 }
+
 .title-red-3 {
   font-size: clamp(1rem, 3.5vw, 1.3rem);
   font-family: "SolaimanLipi";
@@ -133,6 +150,7 @@ i {
   font-family: "SolaimanLipi";
   color: var(--text-p-color);
 }
+
 .title-3s {
   font-size: clamp(0.5rem, 3vw, 0.8rem);
   font-family: "SolaimanLipi";
@@ -165,6 +183,7 @@ i {
   color: #161515;
   font-family: "SolaimanLipi";
 }
+
 .summery-b {
   font-size: clamp(1rem, 2.2vw, 1.04rem);
   line-height: 1.6;
@@ -593,19 +612,22 @@ footer {
 
 
 /* news */
-.photo-card{
+.photo-card {
   cursor: pointer;
 }
-.comment{
+
+.comment {
   background-color: var(--primary-color);
-  color:white;
+  color: white;
   padding: 13px;
   margin-top: 10px;
 }
-.bar-img{
+
+.bar-img {
   width: 35px;
 }
-.next-news{
+
+.next-news {
   background-color: black;
   color: white;
   width: fit-content;
@@ -614,5 +636,5 @@ footer {
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   border-bottom: 3px solid var(--primary-color);
-  
+
 }
