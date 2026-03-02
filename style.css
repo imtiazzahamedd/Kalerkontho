@@ -122,6 +122,11 @@ i {
   font-family: "SolaimanLipi";
   color: var(--primary-color);
 }
+.title-red-3 {
+  font-size: clamp(1rem, 3.5vw, 1.3rem);
+  font-family: "SolaimanLipi";
+  color: var(--primary-color);
+}
 
 .title-3 {
   font-size: clamp(0.9rem, 3vw, 1.2rem);
@@ -159,6 +164,13 @@ i {
   font-size: clamp(0.8rem, 2.2vw, 0.9rem);
   color: #161515;
   font-family: "SolaimanLipi";
+}
+.summery-b {
+  font-size: clamp(1rem, 2.2vw, 1.04rem);
+  line-height: 1.6;
+  color: #161515;
+  font-family: "SolaimanLipi";
+  margin-top: 10px;
 }
 
 .summery-footer {
@@ -577,4 +589,10 @@ footer {
 
 .footer-logo {
   width: clamp(120px, 25vw, 150px)
+}
+
+
+/* news */
+.photo-card{
+  cursor: pointer;
 }
