@@ -72,12 +72,20 @@ i {
   margin: 0.7rem 0;
 }
 
+.p-bar-white {
+  background-color: white;
+  width: 100%;
+  height: 5px;
+  margin: 0.7rem 0;
+}
+
 .se-bar {
   background-color: var(--bar-s);
   width: 100%;
   height: 1px;
   margin: 0.2rem 0;
 }
+
 .se-bar-footer {
   background-color: var(--bar-s);
   width: 100%;
@@ -116,9 +124,15 @@ i {
 }
 
 .title-3 {
-  font-size: clamp(1.1rem, 3vw, 1.2rem);
-  font-weight: bold;
+  font-size: clamp(0.5rem, 3vw, 0.8rem);
   font-family: "SolaimanLipi";
+  color: var(--text-p-color);
+}
+
+.title-3b {
+  font-size: clamp(0.5rem, 3vw, 1.2rem);
+  font-family: "SolaimanLipi";
+  font-weight: bold;
   color: var(--text-p-color);
 }
 
@@ -141,6 +155,7 @@ i {
   color: #161515;
   font-family: "SolaimanLipi";
 }
+
 .summery-footer {
   font-size: clamp(0.95rem, 2.2vw, 1.05rem);
   color: #161515;
@@ -403,13 +418,15 @@ i {
   color: green;
   border: 1px solid green;
 }
-.bi-instagram{
+
+.bi-instagram {
   color: var(--primary-color);
-    border: 1px solid var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
-.bi-youtube{
+
+.bi-youtube {
   color: var(--primary-color);
-    border: 1px solid var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
 
 .bi-messenger,
@@ -423,11 +440,7 @@ i {
   max-height: 464px;
   overflow-y: auto;
   scrollbar-width: thin;
-  scrollbar-color: var(--primary-color) var(--bar-s);
-}
-
-.latest-news-list::-webkit-scrollbar {
-  width: 1px;
+  scrollbar-color: var(--primary-color) white;
 }
 
 .latest-news-list::-webkit-scrollbar-track {
@@ -512,7 +525,7 @@ i {
   border-radius: 5px;
   padding: 0.5rem 1rem;
   font-family: "SolaimanLipi";
-  font-size: clamp(1.15rem , 2.5vw , 1.3rem);
+  font-size: clamp(1.15rem, 2.5vw, 1.3rem);
   font-weight: 500;
   line-height: 1;
   display: flex;
@@ -526,10 +539,37 @@ i {
 .search:hover {
   background-color: #e0732e;
 }
+
+/* gallery */
+.gallery {
+  background-color: var(--dark-bg);
+  padding: 1rem 0;
+}
+
+.right-gallery {
+  height: 448px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary-color) var(--dark-bg);
+}
+
+
+.right-gallery::-webkit-scrollbar-thumb {
+  background-color: var(--dark-bg);
+  border-radius: 10px;
+}
+
+.right-gallery::-webkit-scrollbar-track {
+  background-color: var(--dark-bg);
+  border-radius: 10px;
+}
+
 /* footer */
-footer{
+footer {
   font-family: "SolaimanLipi";
 }
-.footer-logo{
+
+.footer-logo {
   width: clamp(120px, 25vw, 150px)
 }
