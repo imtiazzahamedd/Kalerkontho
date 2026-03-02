@@ -623,7 +623,22 @@ footer {
   cursor: pointer;
 
 }
+
 /* error */
-.error{
+.error {
   background-color: #eff3f4;
+}
+
+/* search */
+.input-group-text {
+  background-color: var(--primary-color);
+  color: white;
+  cursor: pointer;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 5px var(--primary-color);
+  border-color: var(--primary-color);
+  outline: none;
+  transition: 0.3s;
 }
