@@ -1,12 +1,12 @@
 /* Importing Fonts */
 @font-face {
   font-family: "SolaimanLipi";
-  src: url("assets/fonts/solaimanlipi.woff");
+  src: url("../fonts/solaimanlipi.woff");
 }
 
 @font-face {
   font-family: "SutonnyMj";
-  src: url("assets/fonts/SutonnyMJ\ Regular.ttf");
+  src: url("../fonts/SutonnyMJ Regular.ttf");
 }
 
 /* list, anchor */
