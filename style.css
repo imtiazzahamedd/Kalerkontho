@@ -623,3 +623,7 @@ footer {
   cursor: pointer;
 
 }
+/* error */
+.error{
+  background-color: #eff3f4;
+}
