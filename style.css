@@ -124,6 +124,11 @@ i {
 }
 
 .title-3 {
+  font-size: clamp(0.9rem, 3vw, 1.2rem);
+  font-family: "SolaimanLipi";
+  color: var(--text-p-color);
+}
+.title-3s {
   font-size: clamp(0.5rem, 3vw, 0.8rem);
   font-family: "SolaimanLipi";
   color: var(--text-p-color);
@@ -302,7 +307,7 @@ i {
 }
 
 .off-fb,
-.off-lin {
+.off-li {
   border: 1px solid var(--tt-blue);
   color: var(--tt-blue);
   padding: 15px;
